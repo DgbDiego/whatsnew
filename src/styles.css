@@ -1,11 +1,18 @@
 /* Add application styles & imports to this file! */
+* {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #616161;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;}
+
 app-top-bar {
   width: 100%;
-  height: 68px;
-  background-color: #1976d2;
-  padding: 16px;
+  height: 50px;
+  background-color: #800080;
+  padding: 12px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items:center;
 }
